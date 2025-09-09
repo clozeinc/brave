@@ -1,0 +1,15 @@
+!name: Newsletter Filter
+!description: Filter results not suitable for newsletter content
+!public: false
+!author: Cloze, Inc.
+
+$discard,site=reddit.com
+$discard,site=pinterest.com
+$discard,site=quora.com
+$discard,site=facebook.com
+$discard,site=instagram.com
+$discard,site=twitter.com
+$discard,site=linkedin.com
+$discard,site=x.com
+$discard,site=uber.com
+$discard,site=bustickets.com
